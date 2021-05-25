@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Catalogue Movie</string>
+    <string name="tv_show">Tv Show</string>
+    <string name="tv">TV SHOW</string>
+    <string name="movie">Movie</string>
+    <string name="title_movie">title movie</string>
+    <string name="score">score</string>
+    <string name="choose_your_movie_now">Choose Your\nMovie Now</string>
+    <string name="year">year</string>
+    <string name="genre">genre</string>
+    <string name="durasi">durasi</string>
+    <string name="deskripsi">deskripsi</string>
+    <string name="watching_now">Watching Now</string>
+
+</resources>

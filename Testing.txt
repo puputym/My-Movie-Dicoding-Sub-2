@@ -1,0 +1,81 @@
+=================Pada Unit Testing============================
+
+MovieViewModelTest:
+->Memuat movie
+
+1. Memanipulasi data ketika pemanggilan data movie di kelas repository.
+
+2. Memastikan metode di kelas repository terpanggil.
+
+3. Melakukan pengecekan data movie apakah null atau tidak.
+
+4. Melakukan pengecekan jumlah data movie apakah sudah sesuai atau belum.
+
+
+TvShowViewModelTest:
+->Memuat tvShow:
+
+1. Memanipulasi data ketika pemanggilan data tvShow di kelas repository.
+
+2. Memastikan metode di kelas repository terpanggil.
+
+4. Melakukan pengecekan data tvShow apakah null atau tidak.
+
+5. Melakukan pengecekan jumlah data tvSHow apakah sudah sesuai atau belum.
+
+
+DetailMovieActivityViewModelTest:
+
+->Memuat Movie berdasarkan Id Movie
+
+1. Memanipulasi data ketika pemanggilan data movie di kelas repository.
+
+2. Memastikan metode di kelas repository terpanggil.
+
+3. Melakukan pengecekan data movie apakah null atau tidak.
+
+4. Melakukan pengecekan jumlah data movie apakah sudah sesuai atau belum.
+
+->Memuat TvShow Berdasarkan Id TvShow
+
+1. Memanipulasi data ketika pemanggilan data tvShow di kelas repository.
+
+2. Memastikan metode di kelas repository terpanggil.
+
+4. Melakukan pengecekan data tvShow apakah null atau tidak.
+
+5. Melakukan pengecekan jumlah data tvSHow apakah sudah sesuai atau belum.
+
+
+
+================Pada Insturmental Testing=====================
+
+skenario testing yang dilakukan sebagai berikut: 
+
+1.Menampilkan data katalog Movie
+2.Memastikan rv_movie dalam keadaan tampil.
+3.Gulir rv_movie ke posisi data terakhir.
+4.Menampilkan data detail katalog Movie
+5.Memberi tindakan klik pada data pertama di rv_movie
+6.Memastikan ImageView untuk image photo tampil sesuai dengan yang diharapkan.
+7.Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+8.Memastikan TextView untuk year tampil sesuai dengan yang diharapkan.
+9.Memastikan TextView untuk genre tampil sesuai dengan yang diharapkan.
+10.Memastikan TextView untuk durasi tampil sesuai dengan yang diharapkan.
+11.Memastikan TextView untuk score tampil sesuai dengan yang diharapkan.
+12.Memastikan TextView untuk deskripsi tampil sesuai dengan yang diharapkan.
+
+1.Klik TabLayout dengan teks TvShow
+2.Menampilkan data katalog tvShow
+3.Memastikan rv_tvShow dalam keadaan tampil.
+4.Gulir tvShow ke posisi data terakhir.
+5.Menampilkan data detail katalog tvShow
+6.Memberi tindakan klik pada data pertama di rv_tvShow
+7.Memastikan ImageView untuk image photo tampil sesuai dengan yang diharapkan.
+8.Memastikan TextView untuk title tampil sesuai dengan yang diharapkan.
+9.Memastikan TextView untuk year tampil sesuai dengan yang diharapkan.
+10.Memastikan TextView untuk genre tampil sesuai dengan yang diharapkan.
+11.Memastikan TextView untuk status tampil sesuai dengan yang diharapkan.
+12.Memastikan TextView untuk score tampil sesuai dengan yang diharapkan.
+13.Memastikan TextView untuk deskripsi tampil sesuai dengan yang diharapkan.
+
